@@ -1,4 +1,4 @@
-﻿#region licence/info
+#region licence/info
 
 //////project name
 //Firmata Plugin
@@ -295,7 +295,7 @@ namespace VVVV.Nodes
                             int pointCount = PointXYInput.SliceCount;
                             int colorCount = PointColorInput.SliceCount;
 
-                            HeliosPoint[] points = new HeliosPoint[pointCount];'
+                            HeliosPoint[] points = new HeliosPoint[pointCount];
                             
                             for (int i = 0; i<pointCount; i++)
                             {
